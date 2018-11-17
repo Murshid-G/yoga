@@ -1,0 +1,66 @@
+<div class="page-header--section text-center">
+	<div class="page--title pd--130-0" data-bg-img="/img/page-header-img.jpg">
+	<div class="container">
+			 <h1 class="h2"><%= blog.uName %></h2>
+			</div>
+			</div>
+	 <div class="page--breadcrumb font--secondary">
+		<div class="container">
+		 <ul class="breadcrumb">
+			<li>
+			<a href="/">Home</a>
+			</li>
+			<li>
+			<a href="/blog">Blog</a>
+			</li>
+			<li class="active"><span><%= blog.uName %></span></li>
+		 </ul>
+			</div>
+			</div>
+			</div>
+		<div class="blog--section pd--100-0-40">
+			<div class="container">
+				<div class="row">
+				<div class="blog--content col-md-9 pb--60">
+				<div class="post--item post--single">
+				<div class="post--img"><img alt="" data-rjs="2" src="/img/blog-img/post-details-01.jpg"></div>
+				<div class="post--info">
+					<h2 class="h5"><a href="#"><%= blog.title %></a></h2>
+					<p>By <a href="#">AQ</a><span class="divider">/</span>
+					 <a href="/blog">
+		             <span>
+		               <%= moment(blog.createdOn).format('DD') %>
+		                </span>
+		               <%= moment(blog.createdOn).format('MMM') %>
+		               <%= moment(blog.createdOn).format('YYYY') %>
+		                </a>
+					</p>
+				</div>
+				<div class="post--content">
+					<p class="text-justify">
+					<%- blog.content %>
+					</p>
+				</div>
+				</div>
+		</div>
+			<div class="blog--sidebar col-md-3 pb--60">
+			
+				<div class="widget">
+				 <h2 class="widget--title h4 bg--overlay">Catagories</h2>
+				<div class="categories--widget">
+					<ul>
+						<% if(categories && categories.length >0){ %>
+                                <% for (var j = 0; j < categories.length; j++) { %>
+                                <li>
+                                    <a href="/blog?categoryId=<%= categories[j].id %>"><%= categories[j].name %></a>
+                                    <span>(02)</span>
+                                </li>
+                                 <% }} %>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+			</div>
+		</div>
+		

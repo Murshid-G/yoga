@@ -1,0 +1,75 @@
+    <div class="page-header--section text-center">
+			<div class="page--title pd--130-0" data-bg-img="/img/page-header-img.jpg">
+				<div class="container">
+					<h1 class="h1"><%= item.uName %></h1>
+				</div>
+			</div>
+			<div class="page--breadcrumb font--secondary">
+				<div class="container">
+					<ul class="breadcrumb">
+						<li>
+							<a href="/">Home</a>
+						</li>
+						<li class="active"><span>Service Details</span></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+		<div class="service-single--section pd--100-0-40">
+			<div class="container">
+				<div class="row">
+					<div class="service-single--content col-md-8 pb--60">
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="serviceDetailsTab01">
+								
+								<p><img alt="" data-rjs="2" src="/img/service-details-img/tab-item-01.jpg"></p>
+								<h3 class="h5"><%= item.name %></h3>
+								<p class="text-justify">
+									<%- item.description %>
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="appointment--form col-md-4" data-form="ajax">
+						<form action="" method="post">
+							<input name="submitType" type="hidden" value="ajax"> <input name="submitType" type="hidden" value="ajax">
+							<h2 class="h4 text--primary text-center">Make An Appoinment</h2>
+							<div class="status"></div>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input class="form-control" id="name" name="name" placeholder="Your Name" required="" type="text">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input class="form-control" id="mobile" name="tel" placeholder="Telephone" type="tel">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<input class="form-control" id="email" name="email" placeholder="E-mail Address" required="" type="email">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<input class="form-control" id="address" name="address" placeholder="Address" required="" type="text">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<input class="form-control" data-trigger="date" name="dueDate" id="dueDate" placeholder="Select Date" required="">
+									</div>
+								</div>
+								
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="description" name="message" placeholder="Problem In Details" required=""></textarea>
+							</div><button class="btn btn-default" id="bookService" type="submit">Send Request</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
