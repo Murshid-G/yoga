@@ -7,7 +7,7 @@ env = require('./env'),
 config = require('./config/' + env.name);
 
 app.set('view engine', 'ejs');
-app.set('view options', {defaultLayout:'layout'});
+app.set('view options',{defaultLayout:'layout'});
 // app.use(express.static(__dirname+'/static'));
 app.use(express.static(__dirname + '/static'));
 app.use(partials());
@@ -22,7 +22,6 @@ app.get('/blog', routes.blog);
 app.use(errorHandlers.error);
 app.use(errorHandlers.notFound);
 
-app.listen(config.port,function(){
+app.listen(config.port, function(){
 	console.log('server running port '+ config.port);
 });
-	
