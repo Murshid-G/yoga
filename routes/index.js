@@ -38,3 +38,11 @@ function contact(req, res){
          title:'contact page'
 	});
 };
+
+module.exports.faq = faq;
+function faq(req, res){
+	res.render('faq', {
+         layout:'layout',
+         title:'FAQ page'
+	});
+};

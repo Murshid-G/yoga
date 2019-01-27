@@ -16,6 +16,7 @@ app.get('/', routes.index);
 app.get('/about', routes.about);
 app.get('/contact', routes.contact);
 app.get('/blog', routes.blog);
+app.get('/faq', routes.faq);
 
 
 
