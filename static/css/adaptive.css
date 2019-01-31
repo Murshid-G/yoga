@@ -47,7 +47,7 @@
 	.logo {margin: 14px 0 0 20px;}
 
 	.mainMenu {display: none;}
-	.showMobileMenu {display: block;position: relative; float: right; width: 22px;height: 16px;margin: 22px 20px 0 0;cursor: pointer; -webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .5s ease-in-out;-moz-transition: .5s ease-in-out;-o-transition: .5s ease-in-out; transition: .5s ease-in-out;}
+	.showMobileMenu {display: block;position: relative; float: right; width: 34px;height: 20px;margin: 22px 20px 0 0;cursor: pointer; -webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .5s ease-in-out;-moz-transition: .5s ease-in-out;-o-transition: .5s ease-in-out; transition: .5s ease-in-out;}
 	.showMobileMenu span {position: absolute; display: block;left: 0; height: 2px;width: 100%; background: #333333;opacity: 1;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease; -webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg); transform: rotate(0deg);-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-o-transition: .25s ease-in-out;transition: .25s ease-in-out;}
 	.showMobileMenu span:nth-child(1) {top: 0px;}
 	.showMobileMenu span:nth-child(2),.showMobileMenu span:nth-child(3) {top: 7px;}
