@@ -279,7 +279,7 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 .contactInfo h3:before,
 .storyDesc h3:before {position: absolute;left: 3px;bottom: -51px;width: 46px;height: 1px;background: #5fc7ae;content: "";}
 .contactInfo p,
-.storyDesc p {line-height: 30px;margin-bottom: 30px; color: #7f7f7f;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 300;}
+.storyDesc p {line-height: 30px;margin-bottom: 30px; color: #000000;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 300;}
 .contactInfo p {line-height: 26px;}
 .storyDesc p:last-child {margin-bottom: 0;}
 
@@ -323,7 +323,7 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 .parallaxBox {position: relative; height: 560px;width: 100%;padding-top: 157px; background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-position: center center;text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing: border-box;}
 .parallaxBox h3 {position: absolute;top: 50%;left: 0;width: 100%; line-height: 56px;margin-top: -28px; color: #fff;font-size: 42px;font-weight: 300;text-transform: uppercase;}
 .ourValues .wrapper {width: 570px;padding: 65px 0;}
-.ourValues .wrapper p {line-height: 30px;color: #7f7f7f;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 300;text-align: center;}
+.ourValues .wrapper p {line-height: 30px;color: #000000;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 300;text-align: center;}
 
 .sb_instagram_header {padding: 34px 0 34px; background: #5fc7ae;text-align: center;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
 .sb_instagram_header:hover {background: #70d3bb;}
