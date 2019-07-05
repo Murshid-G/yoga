@@ -46,3 +46,11 @@ function faq(req, res){
          title:'FAQ page'
 	});
 };
+
+module.exports.cost = cost;
+function cost(req, res){
+	res.render('cost', {
+         layout:'layout',
+         title:'prise page'
+	});
+};
