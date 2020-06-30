@@ -1,6 +1,6 @@
 var config = {
 	port: 3009,
-	secret: '0d983fd5c168a969e13ddf2a99666455', 
+	secret: 'xxxxxxxxxxxxxxxxxxxxxxxxxx', 
 	defaults:{
 		psize: 3000
 	}, 
