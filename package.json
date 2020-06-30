@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/abdulquadir202/autospa.git"
   },
-  "author": "murshid",
+  "author": "abdul",
   "license": "ISC",
   "homepage": "https://bitbucket.org/abdulquadir202/autospa#readme",
   "dependencies": {
