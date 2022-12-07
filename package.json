@@ -15,7 +15,7 @@
   "homepage": "https://bitbucket.org/abdulquadir202/autospa#readme",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "express-generator": "^4.15.5",
     "express-partials": "^0.3.0",
     "generator": "^1.0.1",
